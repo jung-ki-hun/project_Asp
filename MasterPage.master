@@ -1,0 +1,250 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1440px;
+            height: 1440px;
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+        .auto-style3 {
+            height: 250px;
+        }
+        .auto-style5 {
+            height: 1440px;
+        }
+        .auto-style6 {
+            position: relative;
+            left: 0px;
+            top: 1px;
+        }
+        .auto-style7 {
+            position: absolute;
+            top: 223px;
+            z-index: 1;
+            width: 236px;
+            height: 24px;
+            left: 856px;
+        }
+        .auto-style10 {
+            position: absolute;
+            top: 224px;
+            z-index: 1;
+            left: 1252px;
+        }
+        .auto-style11 {
+            position: absolute;
+            top: 226px;
+            z-index: 1;
+            right: 210px;
+            left: 1138px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" class="auto-style5">
+    <div>
+    </div>
+    <table class="auto-style1" align="center">
+        <tr>
+            <td class="auto-style3">
+                <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/image/MasterPage/무제-1 복사복사복사.png" Width="1440px" CssClass="auto-style6" />
+                <asp:ImageMap ID="ImageMap1" runat="server" Height="50px" ImageUrl="~/image/MasterPage/무제-2 복사복사복사복사.png" Width="1440px">
+                    <asp:CircleHotSpot NavigateUrl="~/Home.aspx" Radius="73" Target="_self" X="104" Y="25" />
+                    <asp:CircleHotSpot NavigateUrl="~/Login.aspx" Radius="34" Target="_self" X="250" Y="25" />
+                    <asp:CircleHotSpot Radius="120" X="430" Y="25" NavigateUrl="~/List.aspx" Target="_self" />
+                    <asp:CircleHotSpot NavigateUrl="~/Community.aspx" Radius="70" Target="_self" X="650" Y="25" />
+                    <asp:CircleHotSpot NavigateUrl="~/Search.aspx" Radius="45" Target="_self" X="780" Y="25" />
+                </asp:ImageMap>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style5" style="background-color: #FFFFFF">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <asp:LinkButton ID="LinkButton2" runat="server" CssClass="auto-style11" OnClick="LinkButton2_Click">내 정보 보기</asp:LinkButton>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <asp:Label ID="Label1" runat="server" CssClass="auto-style7" Text="Label"></asp:Label>
+                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style10" OnClick="LinkButton1_Click">로그아웃하기</asp:LinkButton>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+        </tr>
+        </table>
+    </form>
+    </body>
+</html>

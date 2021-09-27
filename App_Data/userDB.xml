@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<userdb>
+  <userdb title="테스트" id="test" body="테스트로 작성한 방명록" />
+  <userdb title="gg" id="test" body="gg" />
+  <userdb title="1" id="123123" body="2" />
+  <userdb title="3" id="123123" body="4" />
+  <userdb title="1빠" id="123123" body="형왔다" />
+  <userdb title="정기훈" id="aaaa" body="asp 꿀젬?" />
+</userdb>
